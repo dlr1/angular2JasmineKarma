@@ -1,0 +1,62 @@
+{
+    "items": [
+        {
+            "displayText": "DynamicComponentLoader",
+            "tooltip": "DynamicComponentLoader"
+        },
+        {
+            "displayText": "ChangeDetectionStrategy",
+            "tooltip": "ChangeDetectionStrategy",
+            "path": "../app/components/changeDetection.js",
+            "component":"ChangeDetectionComponent"
+        },
+        {
+            "displayText": "Directive(input required)",
+            "tooltip": "Directive(input required)",
+            "path": "../app/components/input-req.js",
+            "component": "InputReqComponent"
+        }
+        ,
+        {
+            "displayText": "DynamicClassComponent",
+            "tooltip": "DynamicClassComponent",
+            "path": "../app/components/dynamicClass.js",
+            "component": "DynamicClassComponent"
+        }
+         ,
+        {
+            "displayText": "CheckAllComponent",
+            "tooltip": "CheckAllComponent",
+            "path": "../app/components/checkall.js",
+            "component": "CheckAllComponent"
+        }
+         ,
+        {
+            "displayText": "ParentchilddataComponent",
+            "tooltip": "ParentchilddataComponent",
+            "path": "../app/components/parentchildData.js",
+            "component": "ParentComponent"
+        }
+        ,
+        {
+            "displayText": "ngForObjectProperties",
+            "tooltip": "displays object properties using ngFor",
+            "path": "../app/components/ngForObjectProperties.js",
+            "component": "ObjectPropComponent"
+        }
+        ,
+        {
+            "displayText": "ngChanges",
+            "tooltip": "displays ngChanges",
+            "path": "../app/components/ngChanges.js",
+            "component": "NgChangesComponent"
+        }
+         ,
+        {
+            "displayText": "enum to select (dropdown)",
+            "tooltip": "display enum values in dropdown",
+            "path": "../app/components/enum.js",
+            "component": "EnumComponent"
+        }
+    ]
+}

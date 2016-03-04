@@ -1,4 +1,14 @@
 import {Hero} from './hero';
+import {
+  beforeEach,
+  beforeEachProviders,
+  describe,
+  expect,
+  it,
+  inject,
+  injectAsync
+} from 'angular2/testing';
+
   // Demo only!
   describe('Hero', function() {
     it('has name given in the constructor', function() {
