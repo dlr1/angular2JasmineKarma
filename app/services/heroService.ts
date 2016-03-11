@@ -18,6 +18,31 @@ export var HEROES: Hero[] = [
 ];
 
 @Injectable()
+export class MockHeroService {
+    constructor() {
+     
+    }
+    
+    getSomeData(): Observable<any> {
+        return Observable.create((o)=>{o.next(HEROES);});
+    }
+    
+    getHeroes() {
+        return  Promise.resolve(HEROES);
+    }
+    
+    getHeroesSync() {
+        return  HEROES;
+    }
+    
+    getHeroesSlowly() {
+        return new Promise<Hero[]>(resolve =>
+        setTimeout(()=>resolve(HEROES), 1000) // 2 seconds
+        );
+    }
+}
+
+@Injectable()
 export class HeroService {
     constructor(private http: Http) {
      
